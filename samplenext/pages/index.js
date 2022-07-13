@@ -41,7 +41,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="http://localhost:3000/about"
             className={styles.card}
           >
             <h2>Deploy &rarr;</h2>
@@ -49,6 +49,8 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
+          <button href="http://localhost:3000/about">hjt</button>
+         
         </div>
       </main>
 
